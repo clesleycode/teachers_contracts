@@ -15,3 +15,7 @@ ALGORITHM:
 The main begins by unzipping the given directory for data management later on, through the unzip() function. From there, the get-columns() function is called to retrieve the labels of each column for each file. This is to then find the most common labels across the files through the most-common() function. This result, set to the variable "result", will be used as the way of keeping track of the data.
 
 After that, we go into the actual management of data. To begin, a dictionary (output) is initalized to keep track of all the data. From there, the code runs through every file, stripping all the relevant information and adding it to the dictionary as the relevant data is found.
+
+Notes:
+
+1. The package textblob_aptagger has an error where it says there's an error from textblob.packages import nltk. To fix this, just find the taggers.py file that should be in the textblob_aptagger file and edit line 10, where it should say from textblob.packages import nltk, to just "import nltk". That should fix the issue.
