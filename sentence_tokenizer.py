@@ -1,3 +1,6 @@
+# Tokenizes sentences into words
+# Author: Lesley Cordero
+
 from nltk import sent_tokenize
 import os
 from unidecode import unidecode
