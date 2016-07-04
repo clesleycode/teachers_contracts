@@ -1,3 +1,6 @@
+# NLP word classification: 
+# Author: Lesley Cordero
+
 from collections import Counter
 from random import choice
 from nltk.corpus import stopwords as stop
