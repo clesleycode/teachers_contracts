@@ -1,3 +1,6 @@
+# Data Preparation for NLP Modeling 
+# Author: Lesley Cordero
+
 import os, sys
 import csv
 import zipfile
